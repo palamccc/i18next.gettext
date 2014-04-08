@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Jan Muehlemann"
+  },
+  "name": "i18next.gettext",
+  "version": "1.6.0",
+  "contributors": [
+    {
+      "name": "Jan Muehlemann",
+      "email": "jan.muehlemann@gmail.com"
+    }
+  ],
+  "private": false,
+  "main": "./index.js",
+  "engines": {
+    "node": ">= v0.6.15"
+  },
+  "dependencies": {
+    "i18next-conv": ">= 0.0.1"
+  },
+  "devDependencies": {
+    "mocha": ">= 0.0.1",
+    "expect.js": ">= 0.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "i18next.gettext@1.6.0",
+  "_from": "i18next.gettext@"
+}
