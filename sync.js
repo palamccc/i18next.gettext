@@ -11,14 +11,14 @@ module.exports = {
         var source = this.functions.applyReplacement(this.options.resGetPath, {lng: lng, ns: ns});
 
         var self = this;
-        converter.addTextDomain(lng, source, function(err, data) {
+        converter.addTextDomain(lng, source, {}, function(err, data) {
             // console.log(data);
             if (err) {
                 callback(err);
                 return;
             } 
 
-            converter.parseJSON(lng, data, function(err, json) {
+            converter.parseJSON(lng, data, {}, function(err, json) {
                 if (err) {
                     callback(err);
                 } else {
